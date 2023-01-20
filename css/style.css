@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+    text-decoration: none;
+}
+html,
+body {
+    background-color: #110F17;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+body {
+    max-width: 420px;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+.wrapper {
+    background: #fff; border-radius: 12px; 
+    padding: 30px 25px; box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper .senha {
+    position: relative; height: 50px;
+}
+
+.senha input {
+    height: 100%; width: 100%; color: #333; font-size: 15px; 
+    border-radius: 8px; padding: 0 45px 0 15px; 
+    border: 1px solid #ccc; background-color: transparent;
+}
+.copy-icon {
+    position: absolute; right: 15px; top: 50%; color: #7855C3; 
+    font-size: 20px; cursor: pointer; transform: translateY(-50%);
+}
+.copy-icon:hover {
+    color: #826afb;
+}
+
+.wrapper .gerar-senha {
+    width: 100%; color: #fff; padding: 12px 0; margin-top: 20px; background: #7855C3; border: none; border-radius: 8px; cursor: pointer; transition: all 0.2s ease; font-size: 16px;
+}
+.gerar-senha:hover {
+    background-color: #826afb;
+}
+
+
+#alerta {
+    margin-top: 20px; background-color: #333; padding: 12px 0; border-radius: 8px; max-width: 420px; width: 100%; display: none;
+}
+#alerta p {
+    text-align: center; font-size: 16px; color: #E1E1E6;
+}
+
+
+
+.copy-area h2 {
+    color: #ccc;
+}
+header .top-area h1 b {
+    vertical-align: middle;
+    line-height: 1.7em;
+    color: #7855C3;
+}
+header .copy-area {
+    padding: 20px 0;
+}
+
+header .top-area h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ccc;
+}
